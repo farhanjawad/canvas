@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="bn-BD">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="application-name" content="">
+    <link href="styles/css" rel="stylesheet">
+
+    <title>Home - Canvas Academic Care</title>
+
+    <link rel="shortcut icon" href="/assests/canvas.png" type="image/x-icon">
+    <link rel="icon" href="/assests/canvas.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <link rel="stylesheet" type="text/css" href="./assests/ncc-common.css">
+    <link rel="stylesheet" type="text/css" href="./assests/css-loader.css">
+    <link rel="stylesheet" type="text/css" href="./assests/style.css">
+    <link rel="stylesheet" type="text/css" href="./assests/udm_custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+</head>
+
+<body id="body" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
+    <!--Loading-->
+    <div id="loadingMask" class="loader loader-double"></div>
+
+    <!--Navbar-->
+    <style>
+        .navbar-nav {
+            flex-direction: inherit !important;
+        }
+    </style>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header sticky-top">
+        <div class="container container-xl d-flex align-items-center justify-content-between">
+            <div>
+                <div>
+                    <a href="/">
+                        <img style="max-width:200px;" class="" src="./assests/canvas.png" alt="Canvas">
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+                <nav id="navbar" class="navbar">
+                    <div id="overlay"></div>
+                    <ul>
+                        <li>
+                            <div class="ncc-main-menu">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="/Branches" target="_self">শাখাসমূহ </a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="d-lg-flex d-block align-items-center">
+                        </li>
+                        <li class="call-us">
+                            <a title="01701058522" class="d-flex justify-content-start align-items-center py-lg-0 py-3"
+                                href="tel:01701058522">
+                                <img src="./assests/callusicon.webp" class="img-fluid" alt="">
+                                <h4 class="d-lg-none d-grid mx-2 mt-2">01701058522</h4>
+                            </a>
+                        </li>
+                    </ul>
+                </nav><!-- .navbar -->
+
+                <div id="wrapper">
+                    <div id="iconId" class="circle icon">
+                        <span class="line top"></span>
+                        <span class="line middle"></span>
+                        <span class="line bottom"></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header><!-- End Header -->
+
+
+    <!--MainBody-->
+    <div class="container-fluid p-0 m-0 mainBody" id="mainBody" style="overflow-x:hidden;">
+
+        <!--Maincontent-->
+        <div class="p-0 col-md-12">
+            <link href="./assests/uuu_custom.css" rel="stylesheet">
+
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+                integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous"></script>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+            <script>
+                new PureCounter();
+            </script>
+            <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+            <script type="text/javascript">
+                const lightbox = GLightbox({ ...options });
+            </script>
+            <main id="main">
+                <input type="hidden" id="programLoadMoreNumber" value="50">
+                <input type="hidden" id="programShowProgramNumber" value="30">
+                <!-- ======= Hero Section ======= -->
+                <section id="hero" class="hero d-flex align-items-center">
+
+                    <div class="container-fluid p-0 m-0 hero-fluid">
+                        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class=""
+                                    aria-label="Slide 0"></button>
+                                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"
+                                    aria-label="Slide 1" class="active" aria-current="true"></button>
+                                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"
+                                    aria-label="Slide 2" class=""></button>
+                                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"
+                                    aria-label="Slide 3" class=""></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item" data-bs-interval="4000"
+                                    style="background: linear-gradient(to top, #42275a, #744b6d)">
+                                    <div class="container">
+                                        <img src="https://ik.imagekit.io/ca/tr:w-2200/cv.jpg"
+                                            class="img-fluid d-lg-block d-md-block d-sm-block d-none" alt="Image">
+                                        <img src="https://ik.imagekit.io/ca/tr:w-750/cv.jpgtr=w-783,h-1293,cm-pad_resize"
+                                            class="img-fluid d-lg-none d-md-none d-sm-none d-flex w-100" alt="image">
+                                    </div>
+                                </div>
+                                <div class="carousel-item active" data-bs-interval="4000"
+                                    style="background: linear-gradient(to bottom, #0f0c29, #237a57)">
+                                    <div class="container">
+                                        <img src="" class="img-fluid d-lg-block d-md-block d-sm-block d-none"
+                                            alt="Image">
+                                        <img src="" class="img-fluid d-lg-none d-md-none d-sm-none d-flex w-100"
+                                            alt="image">
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000"
+                                    style="background: linear-gradient(to bottom, #643d90, #207dc1)">
+                                    <div class="container">
+                                        <img src="https://ik.imagekit.io/ca/tr:w-2200/Final.png"
+                                            class="img-fluid d-lg-block d-md-block d-sm-block d-none" alt="Image">
+                                        <img src="https://ik.imagekit.io/ca/tr:w-750/Final.png"
+                                            class="img-fluid d-lg-none d-md-none d-sm-none d-flex w-100" alt="image">
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="4000"
+                                    style="background: linear-gradient(to top, #eb5d7e, #6679ba)">
+                                    <div class="container">
+                                        <img src="" class="img-fluid d-lg-block d-md-block d-sm-block d-none"
+                                            alt="Image">
+                                        <img src="" class="img-fluid d-lg-none d-md-none d-sm-none d-flex w-100"
+                                            alt="image">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Hero -->
+                <!-- ======= course Section Start ======= -->
+                <section class="course-home-section">
+                    <div class="container">
+                        <div class="head d-flex justify-content-center">
+                            <h1 class="head1">সময়োপযোগী প্রোগ্রামসমূহ</h1>
+                        </div>
+                        <div class="row options">
+                            <div class="col-md-4">
+                                <select id="ClassType" class="form-select shadow">
+                                    <option value="0">All Class</option>
+                                    <option value="Eight">Eight</option>
+                                    <option value="Nine">Nine</option>
+                                    <option value="Ten">Ten</option>
+                                    <option value="Eleven">Eleven</option>
+                                    <option value="Twelve">Twelve</option>
+                                    <option value="Model Test">Model Test</option>
+                                    <option value="Admission">Admission</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select shadow" id="ProgramType">
+                                    <option value="0">All Program</option>
+                                    <option value="in-branch">Offline Program</option>
+                                    <option value="online">Online Program</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select shadow" id="PaymentType">
+                                    <option value="0">All Type</option>
+                                    <option value="paid">Paid Program</option>
+                                    <option value="free">Free Program</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!--Card Start-->
+                        <div class="row d-flex">
+                            <div class="col-lg-4 col-md-6 col-sm-6 course" data-class="Eight"
+                                data-program="in-branch,online" data-payment="paid">
+                                <div class="card shadow">
+                                    <div class="card-header p-0">
+                                        <img src="/media/Images/Unmesh/Program/2024/HSCFR&amp;PreAd24f.png" alt="image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3>
+                                            <span>HSC &#x9AB;&#x9BE;&#x987;&#x9A8;&#x9BE;&#x9B2;
+                                                &#x9B0;&#x9BF;&#x9AD;&#x9BF;&#x9B6;&#x9A8;
+                                                &#x995;&#x9CB;&#x9B0;&#x9CD;&#x9B8; A to Z (Concept &#x2B; CQ &#x2B;
+                                                MCQ)</span>
+                                        </h3>
+                                        <ul>
+                                            <li>সকল বিষয়ের Concept + CQ + MCQ রিভিশন</li>
+                                            <li>বিভিন্ন লেখকের মূল বইয়ের ৫টি &ldquo;অনুশীলনী MCQ প্রশ্নব্যাংক&rdquo;
+                                            </li>
+                                            <li>১০৫টি স্মার্টবোর্ড লাইভ ক্লাস ও MCQ এক্সাম</li>
+                                            <li>প্রোগ্রামভিত্তিক প্রি-এডমিশন ক্লাস-পরীক্ষা</li>
+                                            <li>এডমিশন&rsquo;২৪ প্রোগ্রামে ভর্তি হলে ফ্রি!</li>
+                                            <li>১৩ ডিসেম্বর পর্যন্ত Early Bird Offer-এ ভর্তি!</li>
+                                        </ul>
+
+                                    </div>
+                                    <div
+                                        class="card-footer text-center border-0 pb-3 d-flex justify-content-center align-items-center">
+                                        <a class="btn btn-enroll btn-details shadow d-block"
+                                            style="background: linear-gradient(to right, ,) !important"
+                                            href="#">Details</a>
+                                        <a class="btn btn-enroll shadow"
+                                            style="background: linear-gradient(to right, ,) !important"
+                                            href="/Enroll.html">Enroll
+                                            Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 course" data-class="Admission"
+                                data-program="in-branch,online" data-payment="paid">
+                                <div class="card shadow">
+                                    <div class="card-header p-0">
+                                        <img src="/media/Images/Unmesh/Program/2024/4.png" alt="image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3>
+                                            <span>&#x9AE;&#x9C7;&#x9A1;&#x9BF;&#x995;&#x9C7;&#x9B2;
+                                                &#x98F;&#x9A1;&#x9AE;&#x9BF;&#x9B6;&#x9A8;
+                                                &#x9AA;&#x9CD;&#x9B0;&#x9CB;&#x997;&#x9CD;&#x9B0;&#x9BE;&#x9AE;
+                                                2024</span>
+                                        </h3>
+                                        <ul>
+                                            <li>মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস</li>
+                                            <li>লাইভ ম্যারাথন ক্লাস</li>
+                                            <li>প্রশ্নব্যাংক মাস্টার ক্লাস ও কুইজ</li>
+                                            <li>পর্যাপ্ত সংখ্যক স্ট্যান্ডার্ড এক্সাম</li>
+                                            <li>মানসম্মত সকল স্টাডি ম্যাটেরিয়ালস</li>
+                                            <li>ডাউট সলভিংয়ে সার্বক্ষণিক Q &amp; A সেবা</li>
+                                        </ul>
+
+                                    </div>
+                                    <div
+                                        class="card-footer text-center border-0 pb-3 d-flex justify-content-center align-items-center">
+                                        <a class="btn btn-enroll btn-details shadow d-block"
+                                            style="background: linear-gradient(to right, ,) !important"
+                                            href="#">Details</a>
+                                        <a class="btn btn-enroll shadow"
+                                            style="background: linear-gradient(to right, ,) !important"
+                                            href="/Enroll.html">Enroll
+                                            Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 course" data-class="Admission"
+                                data-program="in-branch,online" data-payment="paid">
+                                <div class="card shadow">
+                                    <div class="card-header p-0">
+                                        <img src="/media/Images/Unmesh/Program/1/MAP22723.png" alt="image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3>
+                                            <span>&#x9AE;&#x9C7;&#x9A1;&#x9BF;&#x995;&#x9C7;&#x9B2; &#x2B;
+                                                &#x9AD;&#x9BE;&#x9B0;&#x9CD;&#x9B8;&#x9BF;&#x99F;&#x9BF; Math
+                                                &#x995;&#x9CB;&#x9B0;&#x9CD;&#x9B8; 2023
+                                                (&#x997;&#x9C1;&#x99A;&#x9CD;&#x99B;
+                                                &#x9AA;&#x9CD;&#x9B0;&#x9B8;&#x9CD;&#x9A4;&#x9C1;&#x9A4;&#x9BF;
+                                                &#x9AB;&#x9CD;&#x9B0;&#x9BF;!)</span>
+                                        </h3>
+                                        <ul>
+                                            <li>মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস</li>
+                                            <li>ম্যারাথন লাইভ ক্লাস</li>
+                                            <li>প্রশ্নব্যাংক মাস্টার ক্লাস ও&nbsp;কুইজ</li>
+                                            <li>পর্যাপ্ত সংখ্যক স্ট্যান্ডার্ড এক্সাম</li>
+                                            <li>মানসম্মত সকল স্টাডি ম্যাটেরিয়ালস</li>
+                                            <li>সার্বক্ষণিক Q &amp; A সেবা</li>
+                                        </ul>
+
+                                    </div>
+                                    <div
+                                        class="card-footer text-center border-0 pb-3 d-flex justify-content-center align-items-center">
+                                        <a class="btn btn-enroll btn-details shadow d-block"
+                                            style="background: linear-gradient(to right, ,) !important"
+                                            href="#">Details</a>
+                                        <a class="btn btn-enroll shadow"
+                                            style="background: linear-gradient(to right, ,) !important"
+                                            href="/Enroll.html">Enroll
+                                            Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 course" data-class="Admission"
+                                data-program="in-branch,online" data-payment="paid">
+                                <div class="card shadow">
+                                    <div class="card-header p-0">
+                                        <img src="https://ik.imagekit.io/ca/Final.png" alt="image">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3>
+                                            <span>SSC 2024 Final Batch</span>
+                                        </h3>
+                                        <ul>
+                                            <li>দৈনিক ক্লাস ১৮০ টি</li>
+                                            <li>ক্লাস টেস্ট ৯০টি</li>
+                                            <li>সাবজেক্ট টেস্ট ১৪টি</li>
+                                            <li>ফাইনাল মডেল টেস্ট ২৪টি</li>
+                                            <li>পরীক্ষা শুরু: ৪ নভেম্বর ২০২৩</li>
+                                        </ul>
+
+                                        <div id="gtx-trans" style="position: absolute; left: 78px; top: 141.984px;">
+                                            <div class="gtx-trans-icon">&nbsp;</div>
+                                        </div>
+
+                                    </div>
+                                    <div
+                                        class="card-footer text-center border-0 pb-3 d-flex justify-content-center align-items-center">
+                                        <a class="btn btn-enroll btn-details shadow d-block"
+                                            style="background: linear-gradient(to right, ,) !important"
+                                            href="#">Details</a>
+                                        <a class="btn btn-enroll shadow"
+                                            style="background: linear-gradient(to right, ,) !important"
+                                            href="/Enroll.html">Enroll
+                                            Now</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="not-found-message text-center text-danger my-4 d-none">
+                            <h2>Program not found.</h2>
+                        </div>
+                        <div class="text-center load-more">
+                            <a class="btn btn-more shadow">আরও দেখুন <i class="bi bi-chevron-down"></i></a>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- End Course Section -->
+
+                <section id="success-section" class="success-section">
+                    <div class="container">
+                        <div class="d-flex justify-content-center">
+                            <h1 class="head1">অবাক করা সাফল্যগাঁথা</h1>
+                        </div>
+                        <div id="carouselSuccess" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselSuccess" data-bs-slide-to="0" class=""
+                                    aria-label="Slide 0"></button>
+                                <button type="button" data-bs-target="#carouselSuccess" data-bs-slide-to="1"
+                                    aria-label="Slide 1" class="active" aria-current="true"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <div class="images">
+                                        <img src="" class="img-fluid w-100" alt="">
+                                    </div>
+                                </div>
+                                <div class="carousel-item active" data-bs-interval="4000">
+                                    <div class="images">
+                                        <img src="" class="img-fluid w-100" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Success Section -->
+                <!-- ======= Counter Section Start ======= -->
+                <section id="counter-section" class="counter-section">
+                    <div class="container">
+                        <div class="row d-flex justify-content-center">
+                            <div class="d-flex col-md-4 col-sm-6 col-12 text-center">
+                                <div class="card" style="box-shadow: 3px 4px 0px #2b4f54;margin: 0px 18px;">
+                                    <div class="card-body">
+                                        <img src="./un_files/count2012a.png" alt="icon1">
+                                        <div class="form-inline d-flex justify-content-center align-items-center">
+                                            <h2 style="color:#2b4f54"></h2>
+                                            <h2 data-purecounter-start="0" data-purecounter-end="25"
+                                                data-purecounter-duration="0" class="purecounter" style="color:#2b4f54">
+                                                3546</h2>
+                                            <h2 style="color:#2b4f54"></h2>
+                                        </div>
+                                        <p>
+                                            ২০২২ সালে SSC-তে ২৫ জন শিক্ষার্থীর ঈর্ষণীয় সাফল্য!
+                                        </p>
+                                    </div>
+                                    <hr style="background-color: #2b4f54;">
+                                </div>
+                            </div>
+                            <div class="d-flex col-md-4 col-sm-6 col-12 text-center">
+                                <div class="card" style="box-shadow: 3px 4px 0px #425b48;margin: 0px 18px;">
+                                    <div class="card-body">
+                                        <img src="./un_files/count2020.png" alt="icon1">
+                                        <div class="form-inline d-flex justify-content-center align-items-center">
+                                            <h2 style="color:#425b48"></h2>
+                                            <h2 data-purecounter-start="0" data-purecounter-end="23"
+                                                data-purecounter-duration="0" class="purecounter" style="color:#425b48">
+                                                3316</h2>
+                                            <h2 style="color:#425b48"></h2>
+                                        </div>
+                                        <p>
+                                            ২০২১ সালে SSC পরীক্ষায় ২৩ জন শিক্ষার্থীর ঈর্ষণীয় সাফল্য!
+                                        </p>
+                                    </div>
+                                    <hr style="background-color: #425b48;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Counter Section -->
+                <!-- ======= Service Section Start ======= -->
+                <section id="service-section" class="service-section">
+                    <div class="container">
+                        <div class="d-flex justify-content-center">
+                            <h1 class="head1">অনন্য সব সেবা পরিক্রমা</h1>
+                        </div>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-3 col-sm-6 col-6 text-center">
+                                <img src="./assests/teacher.webp" alt="icon1">
+                                <p>মেধাবী ও অভিজ্ঞ শিক্ষক</p>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-6 text-center">
+                                <img src="./assests/concept.webp" alt="icon1">
+                                <p>কনসেপ্ট বেইজড ক্লাস</p>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-6 text-center">
+                                <img src="./assests/sms.webp" alt="icon1">
+                                <p>Auto SMS রেজাল্ট</p>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-6 text-center">
+                                <img src="./assests/analysis.webp" alt="icon1">
+                                <p>এক্সাম এনালাইসিস রিপোর্ট</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Service Section -->
+            </main><!-- End #main -->
+
+            <script src="./assests/udm_custom.js.download"></script>
+
+
+        </div>
+    </div>
+
+    <!--Footer-->
+
+
+
+
+    <!-- ======= Footer ======= -->
+    <section class="footer-section" id="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-logo d-flex align-items-center"><img alt="" class="img-fluid" src="./assests/">
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h4>Help</h4>
+
+                            <ul>
+                                <li><a href="/AboutUs">About Us</a></li>
+                                <li><a href="/Branches">Branch List</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="address text-white">
+                                <h4>Get In Touch</h4>
+
+                                <p>Address: Mujgunni R/A,Road number-20, Khalispur, Khulna-9202.</p>
+
+                                <p><a class="text-white" href="tel:01701058522">Helpline: 01701058522</a></p>
+
+                                <p>Email: <a class="text-white"
+                                        href="mailto:canvascoachingkhulna@gmail.com">canvascoachingkhulna@gmail.com</a>
+                                </p>
+                            </div>
+
+                            <div class="media form-inline"><a href="https://www.facebook.com/canvascoachingkhulna"><img
+                                        alt="" src="./assests/facebook.png"></a> <a
+                                    href="https://www.youtube.com/@CanvasCoaching"><img alt=""
+                                        src="./assests/youtube.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <hr>
+            <p>
+                Copyright © Canvas Academic Care
+            </p>
+        </div>
+    </footer>
+    <a class="back-to-top d-flex align-items-center justify-content-center" href="#"><i
+            class="bi bi-arrow-up-short"></i></a>
+    <!-- End Footer -->
+
+    <script type="text/javascript" src="./assests/main.js.download"></script>
+    <script type="text/javascript" src="./assests/custom.js.download"></script>
+
+
+</body>
+
+</html>
