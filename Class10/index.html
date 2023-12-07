@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="bn-BD">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="SSC 2024 Final Batch">
+    <meta name="author" content="">
+    <meta name="application-name" content="">
+    <link href="styles/css" rel="stylesheet">
+
+    <title>SSC 2024 Final Batch - Canvas Academic Care</title>
+
+    <link rel="shortcut icon" href="../assests/canvas.png" type="image/x-icon">
+    <link rel="icon" href=".../assests/canvas.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assests/ncc-common.css">
+    <link rel="stylesheet" type="text/css" href="../assests/css-loader.css">
+    <link rel="stylesheet" type="text/css" href="../assests/style.css">
+    <link rel="stylesheet" type="text/css" href="../assests/udm_custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+</head>
+
+<body id="body" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
+    <!--Loading-->
+    <div id="loadingMask" class="loader loader-double"></div>
+
+    <!--Navbar-->
+    <style>
+        .navbar-nav {
+            flex-direction: inherit !important;
+        }
+    </style>
+
+    <!-- ======= Top Bar ======= -->
+    <!-- ======= Top Bar End======= -->
+    <!-- ======= Header ======= -->
+    <header id="header" class="header sticky-top">
+        <div class="container container-xl d-flex align-items-center justify-content-between">
+            <div>
+                <div>
+                    <a href="/">
+                        <img style="max-width:200px;" class="" src="../assests/canvas.png" alt="Canvas">
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+                <nav id="navbar" class="navbar">
+                    <div id="overlay"></div>
+                    <ul>
+                        <li>
+                            <div class="ncc-main-menu">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="/Branches" target="_self">শাখাসমূহ </a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="d-lg-flex d-block align-items-center">
+                        </li>
+                        <li class="call-us">
+                            <a title="01701058522" class="d-flex justify-content-start align-items-center py-lg-0 py-3"
+                                href="tel:01701058522">
+                                <img src="../assests/callusicon.webp" class="img-fluid" alt="">
+                                <h4 class="d-lg-none d-grid mx-2 mt-2">01701058522</h4>
+                            </a>
+                        </li>
+                    </ul>
+                </nav><!-- .navbar -->
+                <div id="wrapper">
+                    <div id="iconId" class="circle icon">
+                        <span class="line top"></span>
+                        <span class="line middle"></span>
+                        <span class="line bottom"></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header><!-- End Header -->
+
+    <!--MainBody-->
+    <div class="container-fluid p-0 m-0 mainBody" id="mainBody" style="overflow-x:hidden;">
+
+        <!--Maincontent-->
+        <div class="p-0 col-md-12">
+            <style>
+                main {
+                    overflow: hidden;
+                }
+
+                .multiple-enroll .download-routine-item {
+                    position: relative;
+                    width: 53%;
+                    background-color: #F1F1F1;
+                    border-radius: 26px !important;
+                    border: none;
+                    min-width: 250px;
+                }
+
+                .multiple-enroll .download-routine-btn {
+                    background: linear-gradient(to right, #EF512E, #DE0655) !important;
+                    color: #fff !important;
+                    padding: 13px 20px;
+                    border-radius: 26px !important;
+                    font-size: 18px !important;
+                    font-family: LatoRegular;
+                    box-shadow: none;
+                }
+
+                .multiple-enroll .download-routine-item ul {
+                    list-style: none;
+                    padding-left: 0px;
+                }
+
+                .multiple-enroll .download-routine-item ul li {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                .multiple-enroll .btn-danger {
+                    font-size: 18px;
+                    font-family: LatoRegular;
+                }
+
+                .multiple-enroll .download-routine-item ul li a {
+                    width: 100%;
+                    color: #242424;
+                    font-size: 18px;
+                    font-family: HindiShiliguriRegular;
+                    border-bottom: 1px solid gray;
+                    padding: 10px 20px 10px 0px;
+                    display: flex;
+                    align-items: center;
+                }
+
+                .multiple-enroll .download-routine-item .collapse:not(.show)>ul li a::after {
+                    position: relative;
+                }
+
+                .multiple-enroll .accordion-button {
+                    background: #E4E4E4;
+                    color: #3B3849;
+                    font-size: 25px;
+                    font-family: HindiShiliguriBold;
+                    box-shadow: none;
+                }
+
+                .multiple-enroll .accordion-button::after {
+                    background-color: #fff;
+                    border-radius: 50%;
+                    width: 25px;
+                    height: 25px;
+                    background-size: 25px;
+                    background-image: none;
+                    content: "\f282";
+                    font-family: bootstrap-icons !important;
+                    color: #3B3849;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+
+                .multiple-enroll .accordion-body {
+                    font-family: BalooDa2;
+                    font-size: 18px;
+                }
+
+                .multiple-enroll .download-routine-item ul li a::after {
+                    content: "" !important;
+                }
+
+                @media screen and (max-width: 768px) {
+                    .multiple-enroll .download-routine-item {
+                        width: 100%;
+                    }
+                }
+            </style>
+            <link href="../assests/uuu_custom.css" rel="stylesheet">
+
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+                integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous"></script>
+
+            <main id="main">
+                <section class="course-details">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-7 d-flex align-items-sm-center order-md-last order-sm-last order-last">
+                                <div class="content">
+                                    <h1>SSC 2024 Final Batch</h1>
+                                    <p>SSC 2024 বোর্ড পরীক্ষার পরিপূর্ণ প্রস্তুতি নিয়ে সচেষ্ট হতে হবে এখন থেকেই। এই সময়ে
+                                        তোমাদের সার্বিক প্রস্তুতির মান এবং নিজের অবস্থান নির্ণয় করা খুব জরুরি। একই সাথে
+                                        বোর্ড পরীক্ষার প্রশ্ন ধারা সম্পর্কে পরিষ্কার ধারণা রাখা এবং পর্যাপ্ত অনুশীলনের
+                                        মাধ্যমে তা ঝালাই করে নেওয়াও জরুরি। ক্যানভাস এর আয়োজন- “SSC 2024 Final Batch”।
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="container tab-section" id="tab-section">
+                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button aria-controls="pills-home" aria-selected="true" class="nav-link active"
+                                data-bs-target="#pills-home" data-bs-toggle="pill" id="pills-home-tab" role="tab"
+                                type="button">
+                                Program Details
+                            </button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content shadow" id="pills-tabContent">
+                        <div aria-labelledby="pills-home-tab" class="tab-pane fade show active" id="pills-home"
+                            role="tabpanel">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne_1">
+                                        <button aria-controls="collapseOne_1" aria-expanded="false"
+                                            class="accordion-button " data-bs-target="#collapseOne_1"
+                                            data-bs-toggle="collapse" type="button">
+                                            ক্যানভাস এর আয়োজন SSC 2024 Final Batch </button>
+                                    </h2>
+
+                                    <div aria-labelledby="headingOne_1" class="accordion-collapse collapse show"
+                                        id="collapseOne_1">
+                                        <div class="accordion-body">
+                                            <p><strong>প্রিয় SSC-24 পরীক্ষার্থী বন্ধুরা,</strong></p>
+
+                                            <p>বর্তমানে&nbsp;তোমাদের&nbsp;টেস্ট পরীক্ষা চলছে আর এর পরেই স্বল্প সময়ের
+                                                ব্যবধানে অনুষ্ঠিত হবে কাঙ্ক্ষিত বোর্ড পরীক্ষা। তাই তোমাদের এখনই নিজেকে
+                                                চূড়ান্তভাবে প্রস্তুত করার উৎকৃষ্ট সময়। এজন্য বোর্ড পরীক্ষার পূর্বে
+                                                বিষয়ভিত্তিক পূর্ণাঙ্গ প্রস্তুতি অর্জন, পরীক্ষাভীতি দূরীকরণ এবং খুঁটিনাটি
+                                                ভুলগুলো শুধরে নিয়ে বোর্ড পরীক্ষার জন্য শিক্ষার্থীদেরকে সম্পূর্ণরূপে
+                                                প্রস্তুত করার লক্ষ্যে ক্যানভাস এর আয়োজন- “SSC 2024 Final Batch”।
+                                                শিক্ষার্থীদের পরিপূর্ণ প্রস্তুতি নিশ্চিতকরণের লক্ষ্যে কোর্সটিকে
+                                                অধ্যায়ভিত্তিক পরীক্ষা, ক্লাস ও ফাইনাল মডেল টেস্ট এই ৩টি ধাপে বিভক্ত করা
+                                                হয়েছে।
+                                            </p>
+
+                                            <p>&nbsp;</p>
+
+                                            <p><span style="color:#cc0000;"><strong>ধাপ ১: ক্লাস</strong></span></p>
+
+                                            <p>এই ধাপে অধ্যায়ভিত্তিক পরীক্ষা এবং প্রতিটি বিষয়ের খুঁটিনাটি ভুলগুলো যাতে
+                                                শিক্ষার্থীরা শুধরে নিতে পারে এজন্য রাখা হয়েছে ১৮০টি ক্লাস। যা
+                                                শিক্ষার্থীদেরকে সম্পূর্ণ প্রস্তুতি নিশ্চিতের মাধ্যমে আত্মবিশ্বাসী করে
+                                                তুলবে।
+                                            </p>
+
+                                            <p>&nbsp;</p>
+
+                                            <p><span style="color:#cc0000;"><strong>ধাপ ২: অধ্যায়ভিত্তিক
+                                                        পরীক্ষা</strong></span></p>
+
+                                            <p>সম্পূর্ণ সিলেবাসের পরিপূর্ণ প্রস্তুতি গ্রহণের লক্ষ্যে প্রতিটি বিষয়কে
+                                                সিলেবাস এবং গুরুত্ব অনুযায়ী বিভক্ত করে সর্বমোট ৯০ টি অধ্যায়ভিত্তিক
+                                                পরীক্ষা নেওয়া হবে। যা শিক্ষার্থীদের ধারাবাহিক প্রস্তুতিকে অধিক কার্যকরী
+                                                করে তুলবে।</p>
+
+                                            <p>&nbsp;</p>
+
+                                            <p><span style="color:#cc0000;"><strong>ধাপ ৩: ফাইনাল মডেল
+                                                        টেস্ট</strong></span></p>
+
+                                            <p>শেষ মুহূর্তের চূড়ান্ত প্রস্তুতি নিশ্চিতকরণের লক্ষ্যে এই ধাপে থাকছে ২৪টি
+                                                ফাইনাল মডেল টেস্ট। SSC বোর্ড পরীক্ষার অনুরূপ প্রশ্নপত্রে এই পরীক্ষাগুলো
+                                                দেওয়ার মাধ্যমে শিক্ষার্থীরা বোর্ড পরীক্ষার পূর্বেই নিজেকে চূড়ান্তভাবে
+                                                প্রস্তুত করতে পারবে।
+                                            </p>
+
+                                            <p>&nbsp;</p>
+
+                                            <p><span style="color:#c0392b;"><strong>► SSC 2024 মডেল টেস্ট কেন
+                                                        প্রয়োজন?</strong></span></p>
+
+                                            <ul>
+                                                <li>বোর্ড পরীক্ষার প্রশ্নধারার সাথে পরিচিত হওয়া।</li>
+                                                <li>পড়ালেখার ধারাবাহিকতা নিশ্চিতকরণ</li>
+                                                <li>একই সিলেবাস একাধিকবার রিভিশন।</li>
+                                                <li>ভুলগুলো চিহ্নিত করে শুধরে নেওয়ার সুযোগ।</li>
+                                                <li>বিষয়ভিত্তিক পূর্ণাঙ্গ প্রস্তুতি অর্জন ও পরীক্ষাভীতি দূরীকরণ।</li>
+                                                <li>প্রশ্ন নির্বাচনে দক্ষতা অর্জন ও পরীক্ষায় যথাযথ সময় বণ্টন।</li>
+                                                <li>যথাসময়ে পরীক্ষা শেষ করে উত্তরপত্র রিভিশন।</li>
+                                                <li>নম্বর বেশি পাওয়ার কৌশল আয়ত্তকরণ।</li>
+                                                <li>নিজের প্রস্তুতির অবস্থা সম্পর্কে স্বচ্ছ ধারণা অর্জন।</li>
+                                                <li>বোর্ড পরীক্ষায় অংশগ্রহণের পূর্বে পূর্ণ আত্মবিশ্বাস অর্জন।</li>
+                                            </ul>
+
+                                            <p>&nbsp;</p>
+
+                                            <p><strong><span style="color:#002fff;">► কোর্সে যা যা
+                                                        থাকছে:</span></strong></p>
+
+                                            <ul>
+                                                <li>দৈনিক ক্লাস- ১৮০ টি</li>
+                                                <li>ক্লাস টেস্ট- ৯০টি</li>
+                                                <li>সাবজেক্ট টেস্ট- ১৪টি</li>
+                                                <li>ফাইনাল মডেল টেস্ট – ২৪টি</li>
+                                                <li>পরীক্ষা শুরু: ৪ নভেম্বর ২০২৩</li>
+                                            </ul>
+
+                                            <p>&nbsp;</p>
+                                            <p><span style="color:#2006ea;"><strong>► কোর্স ফি:</strong></span>
+                                                ১২,০০০/-&nbsp;</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row d-flex justify-content-between">
+                                    <div class="col-md-5 col-12">
+                                        <div class="routine" id="routine">
+
+                                            <div class="accordion-item download-routine-item">
+                                                <h2 class="accordion-header" id="routineOne">
+                                                    <button aria-controls="collapseOne" aria-expanded="false"
+                                                        class="accordion-button collapsed download-routine-btn"
+                                                        data-bs-target="#collapseOnes" data-bs-toggle="collapse"
+                                                        type="button">
+                                                        Download Routine
+                                                    </button>
+                                                </h2>
+
+                                                <div aria-labelledby="routineOne" class="accordion-collapse collapse"
+                                                    data-bs-parent="#routine" id="collapseOnes">
+                                                    <div class="accordion-body">
+                                                        <ul>
+                                                            <li>
+                                                                <a href="/">অনলাইন ব্যাচের রুটিন</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-md-7 col-12 d-flex justify-content-lg-end justify-content-sm-end justify-content-center pt-2 mb-3">
+                                        <div>
+                                            <div class="accordion-item download-routine-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="download-routine-btn">
+                                                        <a href="Enroll.html"> Enroll Now</a>
+                                                    </button>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End course details Section -->
+                </div>
+            </main><!-- End #main -->
+
+            <script src="../assests/udm_custom.js.download"></script>
+
+
+        </div>
+    </div>
+
+    <!--Footer-->
+
+
+
+
+    <!-- ======= Footer ======= -->
+
+    <!-- ======= Footer ======= -->
+    <section class="footer-section" id="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-logo d-flex align-items-center"><img alt="" class="img-fluid" src="../assests/">
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h4>Help</h4>
+
+                            <ul>
+                                <li><a href="/AboutUs">About Us</a></li>
+                                <li><a href="/Branches">Branch List</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="address text-white">
+                                <h4>Get In Touch</h4>
+
+                                <p>Address: Mujgunni R/A,Road number-20, Khalispur, Khulna-9202.</p>
+
+                                <p><a class="text-white" href="tel:01701058522">Helpline: 01701058522</a></p>
+
+                                <p>Email: <a class="text-white"
+                                        href="mailto:canvascoachingkhulna@gmail.com">canvascoachingkhulna@gmail.com</a>
+                                </p>
+                            </div>
+
+                            <div class="media form-inline"><a href="https://www.facebook.com/canvascoachingkhulna"><img
+                                        alt="" src="../assests/facebook.png"></a> <a
+                                    href="https://www.youtube.com/@CanvasCoaching"><img alt=""
+                                        src="../assests/youtube.png"></a> <a href="https://www.instagram.com/"><img
+                                        alt="" src="../assests/instagram.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <hr>
+            <p>
+                Copyright © Canvas Academic Care
+            </p>
+        </div>
+    </footer>
+    <a class="back-to-top d-flex align-items-center justify-content-center" href="#"><i
+            class="bi bi-arrow-up-short"></i></a>
+    <!-- End Footer -->
+    <script type="text/javascript" src="../assests/main.js.download"></script>
+    <script type="text/javascript" src="../assests/custom.js.download"></script>
+
+
+</body>
+
+</html>

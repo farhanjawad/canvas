@@ -107,51 +107,40 @@
             </script>
             <main id="main">
                 <input type="hidden" id="programLoadMoreNumber" value="10">
-                <input type="hidden" id="programShowProgramNumber" value="5">
+                <input type="hidden" id="programShowProgramNumber" value="8">
+
                 <!-- ======= Hero Section ======= -->
-                <section id="hero" class="hero d-flex align-items-center">
-
-                    <div class="container-fluid p-0 m-0 hero-fluid">
-                        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"
-                                    aria-current="true" aria-label="Slide 0"></button>
-                                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"
-                                    aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"
-                                    aria-label="Slide 2"></button>
+                <section style="background-image: url(./assests/herobg.png)">
+                    <div id="carouselIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://ik.imagekit.io/ca/f.png" class="d-block w-100" alt="...">
                             </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active" data-bs-interval="4000"
-                                    style="background: linear-gradient(to top, #42275a, #42275a)">
-                                    <div class="container">
-                                        <img src="https://ik.imagekit.io/ca/coveracademic.png"
-                                            class="img-fluid d-lg-block d-md-block d-sm-block d-none" alt="Image">
-                                        <img src="/media/Images/Unmesh/SliderImage/2024/EarlyBirdOfferMob3.png"
-                                            class="img-fluid d-lg-none d-md-none d-sm-none d-flex w-100" alt="image">
-                                    </div>
-                                </div>
-                                <div class="carousel-item" data-bs-interval="4000"
-                                    style="background: linear-gradient(to bottom, #643d90, #207dc1)">
-                                    <div class="container">
-                                        <img src="https://ik.imagekit.io/ca/cover.png"
-                                            class="img-fluid d-lg-block d-md-block d-sm-block d-none" alt="Image">
-                                        <img src="/media/Images/Unmesh/SliderImage/MAP22Top18M2.png"
-                                            class="img-fluid d-lg-none d-md-none d-sm-none d-flex w-100" alt="image">
-                                    </div>
-                                </div>
-                                <div class="carousel-item" data-bs-interval="4000"
-                                    style="background: linear-gradient(to top, #eb5d7e, #6679ba)">
-                                    <div class="container">
-                                        <img src="https://ik.imagekit.io/ca/cover24.png"
-                                            class="img-fluid d-lg-block d-md-block d-sm-block d-none" alt="Image">
-                                        <img src="/media/Images/Unmesh/SliderImage/Dental22Top8M.png"
-                                            class="img-fluid d-lg-none d-md-none d-sm-none d-flex w-100" alt="image">
-                                    </div>
-                                </div>
-
+                            <div class="carousel-item">
+                                <img src="https://ik.imagekit.io/ca/coveracademic.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://ik.imagekit.io/ca/cover.png" class="d-block w-100" alt="...">
                             </div>
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </section>
                 <!-- End Hero -->
@@ -190,8 +179,8 @@
                         </div>
                         <!--Card Start-->
                         <div class="row d-flex">
-                            <div class="col-lg-4 col-md-6 col-sm-6 course" data-class="Eight"
-                                data-program="in-branch" data-payment="paid">
+                            <div class="col-lg-4 col-md-6 col-sm-6 course" data-class="Eight" data-program="in-branch"
+                                data-payment="paid">
                                 <div class="card shadow">
                                     <div class="card-header p-0">
                                         <img src="https://ik.imagekit.io/ca/class8.png" alt="image">
@@ -215,16 +204,16 @@
                                         class="card-footer text-center border-0 pb-3 d-flex justify-content-center align-items-center">
                                         <a class="btn btn-enroll btn-details shadow d-block"
                                             style="background: linear-gradient(to right, ,) !important"
-                                            href="#">Details</a>
+                                            href="/Class8/">Details</a>
                                         <a class="btn btn-enroll shadow"
                                             style="background: linear-gradient(to right, ,) !important"
-                                            href="/Enroll.html">Enroll
+                                            href="/Class8/Enroll.html">Enroll
                                             Now</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 course" data-class="Nine"
-                                data-program="in-branch" data-payment="paid">
+                            <div class="col-lg-4 col-md-6 col-sm-6 course" data-class="Nine" data-program="in-branch"
+                                data-payment="paid">
                                 <div class="card shadow">
                                     <div class="card-header p-0">
                                         <img src="https://ik.imagekit.io/ca/class9.png" alt="image">
@@ -247,16 +236,16 @@
                                         class="card-footer text-center border-0 pb-3 d-flex justify-content-center align-items-center">
                                         <a class="btn btn-enroll btn-details shadow d-block"
                                             style="background: linear-gradient(to right, ,) !important"
-                                            href="#">Details</a>
+                                            href="/Class9/">Details</a>
                                         <a class="btn btn-enroll shadow"
                                             style="background: linear-gradient(to right, ,) !important"
-                                            href="/Enroll.html">Enroll
+                                            href="/Class9/Enroll.html">Enroll
                                             Now</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 course" data-class="Ten"
-                                data-program="in-branch" data-payment="paid">
+                            <div class="col-lg-4 col-md-6 col-sm-6 course" data-class="Ten" data-program="in-branch"
+                                data-payment="paid">
                                 <div class="card shadow">
                                     <div class="card-header p-0">
                                         <img src="https://ik.imagekit.io/ca/class10.png" alt="image">
@@ -279,16 +268,16 @@
                                         class="card-footer text-center border-0 pb-3 d-flex justify-content-center align-items-center">
                                         <a class="btn btn-enroll btn-details shadow d-block"
                                             style="background: linear-gradient(to right, ,) !important"
-                                            href="#">Details</a>
+                                            href="/Class10/">Details</a>
                                         <a class="btn btn-enroll shadow"
                                             style="background: linear-gradient(to right, ,) !important"
-                                            href="/Enroll.html">Enroll
+                                            href="/Class10/Enroll.html">Enroll
                                             Now</a>
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-lg-4 col-md-6 col-sm-6 course" data-class="Ten"
-                                data-program="in-branch" data-payment="paid">
+                            <div class="col-lg-4 col-md-6 col-sm-6 course" data-class="Ten" data-program="in-branch"
+                                data-payment="paid">
                                 <div class="card shadow">
                                     <div class="card-header p-0">
                                         <img src="https://ik.imagekit.io/ca/hsc1.png" alt="image">
@@ -311,16 +300,16 @@
                                         class="card-footer text-center border-0 pb-3 d-flex justify-content-center align-items-center">
                                         <a class="btn btn-enroll btn-details shadow d-block"
                                             style="background: linear-gradient(to right, ,) !important"
-                                            href="#">Details</a>
+                                            href="/HSC1st/">Details</a>
                                         <a class="btn btn-enroll shadow"
                                             style="background: linear-gradient(to right, ,) !important"
-                                            href="/Enroll.html">Enroll
+                                            href="/HSC1st/Enroll.html">Enroll
                                             Now</a>
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-lg-4 col-md-6 col-sm-6 course" data-class="Ten"
-                                data-program="in-branch" data-payment="paid">
+                            <div class="col-lg-4 col-md-6 col-sm-6 course" data-class="Ten" data-program="in-branch"
+                                data-payment="paid">
                                 <div class="card shadow">
                                     <div class="card-header p-0">
                                         <img src="https://ik.imagekit.io/ca/hsc2.png" alt="image">
@@ -343,10 +332,10 @@
                                         class="card-footer text-center border-0 pb-3 d-flex justify-content-center align-items-center">
                                         <a class="btn btn-enroll btn-details shadow d-block"
                                             style="background: linear-gradient(to right, ,) !important"
-                                            href="#">Details</a>
+                                            href="/HSC2nd">Details</a>
                                         <a class="btn btn-enroll shadow"
                                             style="background: linear-gradient(to right, ,) !important"
-                                            href="/Enroll.html">Enroll
+                                            href="/HSC2nd/Enroll.html">Enroll
                                             Now</a>
                                     </div>
                                 </div>
@@ -378,10 +367,10 @@
                                         class="card-footer text-center border-0 pb-3 d-flex justify-content-center align-items-center">
                                         <a class="btn btn-enroll btn-details shadow d-block"
                                             style="background: linear-gradient(to right, ,) !important"
-                                            href="#">Details</a>
+                                            href="/SSCFinal/">Details</a>
                                         <a class="btn btn-enroll shadow"
                                             style="background: linear-gradient(to right, ,) !important"
-                                            href="/Enroll.html">Enroll
+                                            href="/SSCFinal/Enroll.html">Enroll
                                             Now</a>
                                     </div>
                                 </div>
@@ -398,36 +387,6 @@
                     </div>
                 </section>
                 <!-- End Course Section -->
-
-                <section id="success-section" class="success-section">
-                    <div class="container">
-                        <div class="d-flex justify-content-center">
-                            <h1 class="head1">অবাক করা সাফল্যগাঁথা</h1>
-                        </div>
-                        <div id="carouselSuccess" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselSuccess" data-bs-slide-to="0" class=""
-                                    aria-label="Slide 0"></button>
-                                <button type="button" data-bs-target="#carouselSuccess" data-bs-slide-to="1"
-                                    aria-label="Slide 1" class="active" aria-current="true"></button>
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item" data-bs-interval="4000">
-                                    <div class="images">
-                                        <img src="" class="img-fluid w-100" alt="">
-                                    </div>
-                                </div>
-                                <div class="carousel-item active" data-bs-interval="4000">
-                                    <div class="images">
-                                        <img src="" class="img-fluid w-100" alt="">
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- End Success Section -->
                 <!-- ======= Counter Section Start ======= -->
                 <section id="counter-section" class="counter-section">
                     <div class="container">
@@ -435,12 +394,12 @@
                             <div class="d-flex col-md-4 col-sm-6 col-12 text-center">
                                 <div class="card" style="box-shadow: 3px 4px 0px #2b4f54;margin: 0px 18px;">
                                     <div class="card-body">
-                                        <img src="./un_files/count2012a.png" alt="icon1">
+                                        <img src="#" alt="icon1">
                                         <div class="form-inline d-flex justify-content-center align-items-center">
                                             <h2 style="color:#2b4f54"></h2>
                                             <h2 data-purecounter-start="0" data-purecounter-end="25"
                                                 data-purecounter-duration="0" class="purecounter" style="color:#2b4f54">
-                                                3546</h2>
+                                                25</h2>
                                             <h2 style="color:#2b4f54"></h2>
                                         </div>
                                         <p>
@@ -453,12 +412,12 @@
                             <div class="d-flex col-md-4 col-sm-6 col-12 text-center">
                                 <div class="card" style="box-shadow: 3px 4px 0px #425b48;margin: 0px 18px;">
                                     <div class="card-body">
-                                        <img src="./un_files/count2020.png" alt="icon1">
+                                        <img src="#" alt="icon1">
                                         <div class="form-inline d-flex justify-content-center align-items-center">
                                             <h2 style="color:#425b48"></h2>
                                             <h2 data-purecounter-start="0" data-purecounter-end="23"
                                                 data-purecounter-duration="0" class="purecounter" style="color:#425b48">
-                                                3316</h2>
+                                                23</h2>
                                             <h2 style="color:#425b48"></h2>
                                         </div>
                                         <p>
