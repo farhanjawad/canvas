@@ -1,40 +1,9 @@
 ﻿/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-@font-face {
-    font-family: HindiShiliguriBold;
-    src: url(../lib/fonts/Hind_Siliguri-Bold.ttf);
-}
 
-@font-face {
-    font-family: HindiShiliguriSemiBold;
-    src: url(../lib/fonts/Hind_Siliguri_SemiBold-Regular.ttf);
-}
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Hind+Siliguri:wght@400;600;700&family=Lato:wght@400;700&display=swap');
 
-@font-face {
-    font-family: HindiShiliguriRegular;
-    src: url(../lib/fonts/Hind_Siliguri-Regular_GhOgZt6.ttf);
-}
-
-@font-face {
-    font-family: LatoRegular;
-    src: url(../lib/fonts/Lato-Regular.ttf);
-}
-
-@font-face {
-    font-family: LatoBold;
-    src: url(../lib/fonts/Lato-Bold.ttf);
-}
-
-@font-face {
-    font-family: BalooDa2;
-    src: url(../lib/fonts/BalooDa2-Regular.ttf);
-}
-
-@font-face {
-    font-family: LatoHeavy;
-    src: url(../lib/fonts/Lato-Heavy.ttf);
-}
 
 .container {
     max-width: 1164px;
